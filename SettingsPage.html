@@ -12,7 +12,7 @@
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     <a class="navbar-brand ml-5">
         <form class="media">
-            <img src="https://i.picsum.photos/id/866/100/100.jpg" class="mr" alt="...">
+            <img src="https://i.picsum.photos/id/866/80/80.jpg" class="mr" alt="...">
         </form>
     </a>
     <a class="navbar-brand mr-auto ">User Name</a>
@@ -25,63 +25,51 @@
 </body>
 <div class="container-fluid">
     <div class="row my-2">
-        <div class="col-8">
+        <div class="col-6 my-2">
             <h1>
                 Settings: accountName
             </h1>
-            <div class="row my-4">
-                <div class="col-3">
-                    Login
-                </div>
-                <div class="col-5">
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="Login" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    </div>
+        <form>
+            <div class="form-group row-my-1">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-9">
+                    <input type="text"  class="form-control" id="staticEmail" >
                 </div>
             </div>
-            <div class="row my-4">
-                <div class="col-3">
-                    email
-                </div>
-                <div class="col-5">
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="email" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    </div>
+            <div class="form-group row-my-1">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-9">
+                    <input type="password" class="form-control" id="inputPassword" >
                 </div>
             </div>
-            <div class="row my-4">
-                <div class="col-3">
-                    NickName
-                </div>
-                <div class="col-5">
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" placeholder="NickName" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                    </div>
+            <div class="form-group row-my-1">
+                <label for="NickName" class="col-sm-2 col-form-label">NickName</label>
+                <div class="col-sm-9">
+                    <input type="NickName"  class="form-control" id="NickName" >
                 </div>
             </div>
-            <div class="row my-4">
-                <div class="col-3">
-                    upload avatar
-                </div>
-                <div class="col-5">
+        </form>
+            <div class="form-group row-my-1">
+                <label for="Avatar" class="col-sm-2 col-form-label">Avatar</label>
+                <div class="col-9">
                     <div class="media">
                         <img src="..." class="mr-3" alt="...">
                         <div class="media-body">
                         </div>
                     </div>
-                    <div class="custom-file">
+                    <div class="custom-file ">
                         <input type="file" class="custom-file-input" id="customFile">
                         <label class="custom-file-label" for="customFile">Choose file</label>
                     </div>
                 </div>
             </div>
-            <div class="col-8 offset-md-3">
+            <div class="col-5">
                 <div class="form-group">
                     <button type="button" class="btn btn-primary">Submit</button>
                 </div>
             </div>
         </div>
-        <div class="col-4 my-5">
+        <div class="col-4 my-3 offset-md-1">
             <h2>
                 Popular Tags
             </h2>
